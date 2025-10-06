@@ -1,0 +1,20 @@
+<div>
+  <h2>Login</h2>
+  <form (ngSubmit)="onLogin()">
+    <div>
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" [(ngModel)]="credentials.username" required>
+    </div>
+    <div>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="credentials.password" required>
+    </div>
+    <button type="submit">Entrar</button>
+  </form>
+  <div *ngIf="error" style="color: red; margin-top: 10px;">
+    {{ error }}
+  </div>
+  <p>
+    Não tem uma conta? <a routerLink="/register">Registre-se aqui</a>.
+  </p>
+</div>
