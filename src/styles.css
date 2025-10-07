@@ -5,6 +5,16 @@ body {
   padding: 2rem;
   background-color: #f4f4f9;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Estilo do cabeçalho e navegação */
@@ -89,4 +99,37 @@ form button {
 
 form button:hover {
   background-color: #004494;
+}
+
+/* Estilos buttons*/
+.nav-button, .nav-button-outline {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 2px solid #0056b3;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Estilo do botão primário (Registrar) */
+.nav-button {
+  background-color: #0056b3;
+  color: white;
+}
+
+.nav-button:hover {
+  background-color: #004494;
+  border-color: #004494;
+  text-decoration: none;
+}
+
+/* Estilo do botão secundário/outline (Login) */
+.nav-button-outline {
+  background-color: transparent;
+  color: #0056b3;
+}
+
+.nav-button-outline:hover {
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
 }

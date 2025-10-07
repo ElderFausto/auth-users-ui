@@ -4,10 +4,10 @@
     <ul>
       <ng-container *ngIf="!authService.isLoggedIn()">
         <li>
-          <a routerLink="/login">Login</a>
+          <a routerLink="/login" class="nav-button-outline">Login</a>
         </li>
         <li>
-          <a routerLink="/register">Registrar</a>
+          <a routerLink="/register" class="nav-button">Registrar</a>
         </li>
       </ng-container>
 
