@@ -1,4 +1,5 @@
 # Aplicação de Autenticação com Angular
+<img width="678" height="614" alt="image" src="https://github.com/user-attachments/assets/72c66db7-c797-4906-802a-3964d9a2cf83" />
 
 Frontend para uma API de autenticação, permitindo que usuários se registrem, façam login, visualizem seus perfis e façam logout.
 
