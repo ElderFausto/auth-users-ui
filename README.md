@@ -1,4 +1,9 @@
 # Aplicação de Autenticação com Angular
+
+[![Angular](https://img.shields.io/badge/Angular-17+-red.svg)](https://angular.io)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <img width="678" height="614" alt="image" src="https://github.com/user-attachments/assets/72c66db7-c797-4906-802a-3964d9a2cf83" />
 
 Frontend para uma API de autenticação, permitindo que usuários se registrem, façam login, visualizem seus perfis e façam logout.
